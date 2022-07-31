@@ -54,8 +54,6 @@ As usual, I started off by constructing the HTML file entirely, focusing on the 
 
 Nothing super new, but good practice for Flexbox and basic CSS.
 
-To see how you can add code snippets, see below:
-
 ```css
 .payment-button {
   padding: 1rem;
