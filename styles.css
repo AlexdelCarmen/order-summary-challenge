@@ -48,7 +48,7 @@ body {
 }
 
 .plan-type {
-  color: --neutral-3;
+  color: var(--neutral-3);
   font-weight: 700;
   margin-bottom: -15px;
 }
@@ -70,9 +70,15 @@ body {
   text-align: center;
 }
 
+.change-link {
+  text-decoration: none;
+  color: var(--accent-2);
+}
+
 button {
   width: 80%;
   margin: 1rem auto;
+  cursor: pointer;
 }
 
 .payment-button {
@@ -84,6 +90,18 @@ button {
   border-radius: 15px;
   border: 1px solid var(--accent-2);
   box-shadow: 1px 10px 30px var(--neutral-2);
+}
+
+.payment-button:hover,
+.payment-button:active,
+.payment-button:focus {
+  opacity: 0.8;
+}
+
+.change-link:hover,
+.change-link:active,
+.change-link:focus {
+  opacity: 0.8;
 }
 
 .cancel-button {
